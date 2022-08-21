@@ -2,8 +2,9 @@
 
 Binary Tree Node struct with LeetCode compatible Serialize / Deserialize format
 
-[![Build Status](https://github.com/egregors/TreeNode/actions/workflows/go.yml/badge.svg)](https://github.com/egregors/TreeNode/actions) 
+[![Build Status](https://github.com/egregors/TreeNode/actions/workflows/go.yml/badge.svg)](https://github.com/egregors/TreeNode/actions)
 
+thanks to https://github.com/egregors/TreeNode
 
 ## Install
 
@@ -35,10 +36,11 @@ func main() {
 }
 ```
 
-A `NewTreeNode(data string) (*TreeNode, error)` constructor expect LeetCode style formatted string. 
+A `NewTreeNode(data string) (*TreeNode, error)` constructor expect LeetCode style formatted string.
 Otherwise, to serialize a tree just call `String()` for `TreeNode` object.
 
 ## Benchmarks
+
 ```shell
 goos: darwin
 goarch: amd64
@@ -49,5 +51,6 @@ Benchmark1_5Tree-12              2645138               448.3 ns/op
 ```
 
 # Contributing
+
 Bug reports, bug fixes and new features are always welcome.
 Please open issues and submit pull requests for any new code.
