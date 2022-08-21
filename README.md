@@ -12,6 +12,8 @@ thanks to https://github.com/egregors/TreeNode
 
 ## Usage
 
+https://pkg.go.dev/gitee.com/masx200/TreeNode
+
 This package provides `TreeNode` data struct and a few function for serialization and deserialization respectively.
 
 ```go
