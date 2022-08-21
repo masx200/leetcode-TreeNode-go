@@ -1,4 +1,4 @@
-module github.com/egregors/TreeNode
+module gitee.com/masx200/TreeNode
 
 go 1.17
 

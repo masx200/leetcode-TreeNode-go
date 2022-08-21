@@ -8,7 +8,7 @@ thanks to https://github.com/egregors/TreeNode
 
 ## Install
 
-`go get github.com/egregors/TreeNode`
+`go get gitee.com/masx200/TreeNode`
 
 ## Usage
 
@@ -20,7 +20,7 @@ package main
 import (
 	"log"
 
-	tn "github.com/egregors/TreeNode"
+	tn "gitee.com/masx200/TreeNode"
 )
 
 func main() {
