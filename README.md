@@ -8,13 +8,14 @@ thanks to https://github.com/egregors/TreeNode
 
 ## Install
 
-`go get gitee.com/masx200/TreeNode`
+`go get github.com/masx200/leetcode-TreeNode-go`
 
 ## Usage
 
-https://pkg.go.dev/gitee.com/masx200/TreeNode
+https://pkg.go.dev/github.com/masx200/leetcode-TreeNode-go
 
-This package provides `TreeNode` data struct and a few function for serialization and deserialization respectively.
+This package provides `TreeNode` data struct and a few function for
+serialization and deserialization respectively.
 
 ```go
 package main
@@ -22,7 +23,7 @@ package main
 import (
 	"log"
 
-	tn "gitee.com/masx200/TreeNode"
+	tn "github.com/masx200/leetcode-TreeNode-go"
 )
 
 func main() {
@@ -38,8 +39,9 @@ func main() {
 }
 ```
 
-A `NewTreeNode(data string) (*TreeNode, error)` constructor expect LeetCode style formatted string.
-Otherwise, to serialize a tree just call `String()` for `TreeNode` object.
+A `NewTreeNode(data string) (*TreeNode, error)` constructor expect LeetCode
+style formatted string. Otherwise, to serialize a tree just call `String()` for
+`TreeNode` object.
 
 ## Benchmarks
 
@@ -54,5 +56,5 @@ Benchmark1_5Tree-12              2645138               448.3 ns/op
 
 # Contributing
 
-Bug reports, bug fixes and new features are always welcome.
-Please open issues and submit pull requests for any new code.
+Bug reports, bug fixes and new features are always welcome. Please open issues
+and submit pull requests for any new code.

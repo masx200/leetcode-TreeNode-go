@@ -1,4 +1,4 @@
-module gitee.com/masx200/TreeNode
+module github.com/masx200/leetcode-TreeNode-go
 
 go 1.17
 
